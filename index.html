@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width",initial-scale="1.0">
+        <title> Music Player</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="icons/css/all.min.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <div class = "container">
+            <div class ="navbar">
+                <img src="media/logo.png" class="logo">
+                <ul>
+                    <li><a href="#">PLAY SONGS</a></li>
+                    <li><a href="#">LIKED SONGS</a></li>
+                    <li><a href="#">RECENTLY PLAYED</a></li>
+                    <li><a href="#">FAVOURITES</a></li>
+                    <li><a href="#">RECOMMENDED SONGS</a></li>
+
+                </ul>
+            </div>
+            <div class="content">
+                <div class="left-col">
+                   
+                </div>
+                <div class="right-col">
+                    <div class="player">
+                        <audio id="music-player"></audio> 
+                        <div id="song-image"class="song-img"></div>
+                        <div class="song-details">
+                            <h2 id="song-title">
+                                Red
+                            </h2>
+                            <h3 id="song-artist">
+                                Taylor Swift
+                            </h3>
+                    
+                        </div>
+                        <div class="player-controls">
+                            <button id="prev-btn"class="skip-btn"><i class="fas fa-backward fa-lg"></i></button>
+                            <button id="play-btn"class="play"><i id="play-icon"class="fas fa-play fa-1.5x"></i></button>
+                            <button id="next-btn"class="skip-btn"><i class="fas fa-forward fa-lg"></i></button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
