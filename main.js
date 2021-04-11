@@ -94,5 +94,10 @@ window.onload = () =>{
         PlaySong();
     }
 
+    function increment()
+    {
+        echo ("Its liked");
+    }
+
 
 }
