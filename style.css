@@ -14,7 +14,7 @@
 .navbar{
     width:88%;
     margin:auto;
-    padding:0px 0;
+    
     display: flex;
     align-items: center;
     justify-content: space between;
@@ -158,6 +158,28 @@
 .player-controls .play:hover {
     box-shadow: 0px 8px 16px rgba(254, 72, 128, 0.8);
 }
+
+.audioPlaylistWrap{
+    padding: 15 px;
+    
+}
+
+.audio-list{
+    margin-bottom: 2px;
+    position: relative;
+}
+
+.audio-list-in{
+    background:rgba(254, 72, 128, 0.8);;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 15px;
+    position: relative;
+    transition: all 0.4s ease-out;
+    cursor: pointer;
+}
+
+
 
 
 @media (max-width: 414px) {
